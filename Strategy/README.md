@@ -150,7 +150,7 @@ let rebate = CashContext(style: .rebate(moneyRebate: 0.7))
 // 满一百返20
 let `return` = CashContext(style: .return(moneyCondition: 100, moneyReturn: 20))
 print("普通: \(normal.getResult(money: money))")
-print("打8折: \(rebate.getResult(money: money))")
+print("打7折: \(rebate.getResult(money: money))")
 print("满一百返20: \(`return`.getResult(money: money))")
 ```
 
@@ -158,7 +158,7 @@ print("满一百返20: \(`return`.getResult(money: money))")
 
 ```swift
 普通: 300.0
-打8折: 210.0
+打7折: 210.0
 满一百返20: 240.0
 ```
 

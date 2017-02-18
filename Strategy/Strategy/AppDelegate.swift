@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 满一百返20
         let `return` = CashContext(style: .return(moneyCondition: 100, moneyReturn: 20))
         print("普通: \(normal.getResult(money: money))")
-        print("打8折: \(rebate.getResult(money: money))")
+        print("打7折: \(rebate.getResult(money: money))")
         print("满一百返20: \(`return`.getResult(money: money))")
 
         
