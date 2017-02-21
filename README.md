@@ -6,3 +6,5 @@ swift设计模式学习，慢慢更新，谢谢大家的阅读~
 [策略模式](/Strategy)
 
 [原型模式](/Prototype)
+
+[代理模式](/Proxy)
