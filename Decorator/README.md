@@ -5,13 +5,13 @@
 ## 装饰模式的特点
 
 1. 装饰对象和真实对象有相同的接口。这样客户端对象就能以和真实对象相同的方式和装饰对象交互。
-2.  装饰对象包含一个真实对象的引用（reference）
+2. 装饰对象包含一个真实对象的引用（reference）
 3. 装饰对象接受所有来自客户端的请求。它把这些请求转发给真实的对象。
 4. 装饰对象可以在转发这些请求以前或以后增加一些附加功能。这样就确保了在运行时，不用修改给定对象的结构就可以在外部增加附加的功能。在面向对象的设计中，通常是通过继承来实现对给定类的功能扩展。
 
 ## 装饰模式的基本实现
 
-![](http://imwcl.oss-cn-shanghai.aliyuncs.com/blog/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F/Decorator.png)
+![](Decorator.png)
 
 上图是最基本的装饰模式的结构图，下面将用swift代码来实现一个基本装饰模式：
 
@@ -76,7 +76,7 @@ class ConcreteDecoratorB: Decorator {
 
 下面通过一个实际的例子来看看，比如我们在买车的时候一般会选配很多配件，下面我们通过策略模式来实现这一过程，下上个结构图：
 
-![](http://imwcl.oss-cn-shanghai.aliyuncs.com/blog/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F/CarParts.png)
+![](CarParts.png)
 
 下面贴上代码：
 

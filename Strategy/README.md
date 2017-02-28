@@ -10,7 +10,7 @@
 
 ## 策略模式的基本实现
 
-![](http://imwcl.oss-cn-shanghai.aliyuncs.com/blog/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/Strategy.png)
+![](Strategy.png)
 
 上图是最基本的装饰模式的结构图，下面将用[**Swift**](http://lib.csdn.net/base/swift)代码来实现一个基本策略模式：
 
@@ -54,7 +54,7 @@ class Context {
 
 我们知道在商场中一般有很多打折优惠方案，类似这种问题就可以用策略模式来解决，打折不同的方案就相当于不同的策略（`ConcreteStrategy`），然后用一个`Context`类来实现不同算法的切换，下面是商场打折策略模式的实现于`UML`图：
 
-![](http://imwcl.oss-cn-shanghai.aliyuncs.com/blog/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/CashSuper.png)
+![](CashSuper.png)
 
 以上是一个简单的商场收银系统，`CashNormal`为普通收费子类，`CashRebate`为打折收费子类，`CashReturn`为返利收费子类，下面是代码的实现过程：
 

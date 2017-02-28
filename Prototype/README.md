@@ -8,7 +8,7 @@
 
 ## 原型模式的基本实现
 
-![](http://imwcl.oss-cn-shanghai.aliyuncs.com/blog/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/prototype.png)
+![](prototype.png)
 
 上图是最基本的原型模式的结构图，下面将用**Swift**代码来实现一个基本原型模式：
 

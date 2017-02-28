@@ -4,7 +4,7 @@
 
 ## 模板方法模式的基本实现
 
-![](http://imwcl.oss-cn-shanghai.aliyuncs.com/blog/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F/TemplateMethod.png)
+![](TemplateMethod.png)
 
 上图是基本模板模式的UML图，这种设计模式在很多地方都有用到，下面是基本实现的代码：
 
@@ -44,7 +44,7 @@ class ConcreteClassB: AbstractClass {
 
 在生活中很多地方用到的模板方法模式，比如我们填一份表格，我们要按照表格的模板开始填，只需要填关键部分，而不用将表格的所有文字炒一遍，下面是UML和代码：
 
-![](http://imwcl.oss-cn-shanghai.aliyuncs.com/blog/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F/TemplateTable.png)
+![](TemplateTable.png)
 
 ```swift
 // 表格的模板
