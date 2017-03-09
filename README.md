@@ -12,3 +12,6 @@ swift设计模式学习，慢慢更新，谢谢大家的阅读~
 [代理模式](/Proxy)
 
 [模板方法模式](/TemplateMethod)
+
+[外观模式](/Facade)
+
